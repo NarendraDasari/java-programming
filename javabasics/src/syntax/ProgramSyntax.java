@@ -16,7 +16,7 @@ public class ProgramSyntax {
 		System.out.println("what r u doing");
 		
 		
-		// THIS IS SAMPLE GIT PUSH
+		
 		
 	}
 

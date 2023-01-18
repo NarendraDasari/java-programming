@@ -5,12 +5,38 @@ public class ProgramSyntax {
 	public static void main(String[] args) {
 			System.out.println("Hello World");
 			System.out.println("how r u");
-			greetUser();
-			newUser();
-			newLakshmi();
-			newSushma();
-			newA();
-			newB();
+			
+			String userName="Lakshmi";
+	
+			
+			
+			if(userName=="Lakshmi")
+			{
+				newLakshmi();
+			}
+			if(userName=="Sushma")
+			{
+				newSushma();
+			}
+			if(userName=="B")
+			{
+				newB();
+			}
+			if(userName=="A")
+			{
+				newA();
+				
+			}
+			if(userName=="newUser")
+			{
+				newUser();
+			}
+			//greetUser();
+			//newUser();
+			//newLakshmi();
+			//newSushma();
+			//newA();
+			//newB();
 	}
 	
 	public static void greetUser()

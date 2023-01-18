@@ -6,7 +6,7 @@ public class ProgramSyntax {
 			System.out.println("Hello World");
 			System.out.println("how r u");
 			
-			String userName="guhhhhhugugyu";
+			String userName="Lakshmi";
 	
 			greetUser(userName);
 			

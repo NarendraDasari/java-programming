@@ -6,7 +6,7 @@ public class ProgramSyntax {
 			System.out.println("Hello World");
 			System.out.println("how r u");
 			
-			String userName="Lakshmi";
+			String userName="A";
 	
 			
 			
@@ -14,20 +14,20 @@ public class ProgramSyntax {
 			{
 				newLakshmi();
 			}
-			if(userName=="Sushma")
+			else if(userName=="Sushma")
 			{
 				newSushma();
 			}
-			if(userName=="B")
+			else if(userName=="B")
 			{
 				newB();
 			}
-			if(userName=="A")
+			else if(userName=="A")
 			{
 				newA();
 				
 			}
-			if(userName=="newUser")
+			else if(userName=="newUser")
 			{
 				newUser();
 			}

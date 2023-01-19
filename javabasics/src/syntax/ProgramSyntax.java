@@ -6,9 +6,11 @@ public class ProgramSyntax {
 			System.out.println("Hello World");
 			System.out.println("how r u");
 			
-			String userName="Lakshmi";
-	
-			greetUser(userName);
+			String userName="ggghgghjhecommeghgj13";
+			String firstName="Chaitanya";
+			String lastName="Nanduri";
+	        String fullName=firstName+ " " +lastName;
+			greetUser(fullName);
 	}
 	
 	public static void greetUser(String name)

@@ -9,25 +9,7 @@ public class ProgramSyntax {
 			String userName="Lakshmi";
 	
 			greetUser(userName);
-			
-			
-			
-			//greetUser();
-			//newUser();
-			//newLakshmi();
-			//newSushma();
-			//newA();
-			//newB();
 	}
-	
-//	public static void greetUser()
-//	{
-//		System.out.println("Welcome User");
-//		System.out.println("hai");
-//		System.out.println("how do you do");
-//		System.out.println("what r u doing");
-//		
-//	}
 	
 	public static void greetUser(String name)
 	{

@@ -21,10 +21,10 @@ public class ProgramSyntax {
 	        greetUser(firstName, lastName);
 	        
 	        calculatorClass calc=new calculatorClass();   
-	        calc.add();
-	        calc.sub();
-	        calc.multiply();
-	        calc.divide();
+	        calc.add(50,50);
+	        calc.sub(30,10);
+	        calc.multiply(2,5);
+	        calc.divide(15,5);
 	        
 	        
 	}

@@ -1,4 +1,5 @@
 package syntax;
+import calculator.*;
 
 public class ProgramSyntax {
 
@@ -18,6 +19,14 @@ public class ProgramSyntax {
 			//honor(prefix, firstName, middleName, lastName);
 	        
 	        greetUser(firstName, lastName);
+	        
+	        calculatorClass calc=new calculatorClass();   
+	        calc.add();
+	        calc.sub();
+	        calc.multiply();
+	        calc.divide();
+	        
+	        
 	}
 	
 	public static void greetUser(String username)

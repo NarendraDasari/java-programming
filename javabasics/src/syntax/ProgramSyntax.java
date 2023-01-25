@@ -84,16 +84,12 @@ public class ProgramSyntax {
 			   //obj.getMake();
 			  // obj.getModel()
 		
-			Vehical obj2 = new Vehical();
-			obj2.setColor("White");
-			String color=obj.getColor();
-			   System.out.println("the color of the vehical is" + color);
-			  
-		
-			   String make=obj.getMake();
-			   System.out.println("the make of the vehical is" +make);
-			   String model=obj.getModel();
-			   System.out.println("the model of the vehical is" +model);
+			   Vehical obj2 = new Vehical();
+			   obj2.setColor("White");
+
+			   System.out.println("the color of the vehical is" + obj2.getColor(););
+			   System.out.println("the make of the vehical is" + obj2.getMake());
+			   System.out.println("the model of the vehical is" + obj2.getModel());
 	        
 	        
 	}

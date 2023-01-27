@@ -86,6 +86,15 @@ public class ProgramSyntax {
 		   System.out.println("the make of the vehical is" +make);
 		   String model=obj.getModel();
 		   System.out.println("the model of the vehical is" +model);
+		
+		
+		Vehical obj2 = new Vehical();
+	 
+		   System.out.println("the color of the vehical is" + obj2.getColor());
+		obj.setColor("Yellow");
+		System.out.println("the color of the vehical is" + obj2.getColor());
+		   System.out.println("the make of the vehical is" +obj2.getMake());
+		   System.out.println("the model of the vehical is" +obj2.getModel());
 	}
 	public static void greetUser(String username)
 	{
